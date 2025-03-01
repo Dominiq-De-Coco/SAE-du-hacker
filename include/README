@@ -1,0 +1,13 @@
+# s_libc_project_[num_groupe]_[num_equipe]
+Ce projet implémente une bibliothèque standard (`libc`) en assembleur avec des fonctions pour les chaînes, les maths et les entrées/sorties.
+
+## Fonctionnalités
+- `s_strlen`, `s_strcpy`, `s_strncmp` (Gestion des chaînes)
+- `s_abs`, `s_pow` (Mathématiques)
+- `s_puts` (Entrée/Sortie)
+- `s_atoi` (Standard)
+
+## Compilation
+```bash
+make
+
