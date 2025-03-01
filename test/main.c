@@ -5,6 +5,7 @@ extern char* s_strcpy(char *dest, const char *src);
 extern int s_strncmp(const char *str1, const char *str2, int n);
 extern int s_abs(int x);
 extern int s_pow(int base, int exp);
+extern void s_puts(const char *str);
 
 int main() {
     char source[] = "Hello, World!";
@@ -22,6 +23,9 @@ int main() {
     // Tests pour s_math.s
     printf("Valeur absolue de -42 : %d\n", s_abs(-42));
     printf("2 puissance 4 : %d\n", s_pow(2, 4));
+
+    // Tests pour s_stdio.s
+    s_puts("Test de s_puts: Hello, World!");
 
     return 0;
 }
